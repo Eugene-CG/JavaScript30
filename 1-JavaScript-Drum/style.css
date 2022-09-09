@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drums {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#e66465, #9198e5);
+}
+.notes {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3em;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.note {
+  width: calc(100% / 7 - 10px);
+  min-width: 86px;
+  height: calc(100% - 80%);
+  min-height: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.2s all ease-in-out;
+}
+.note:hover {
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+}
