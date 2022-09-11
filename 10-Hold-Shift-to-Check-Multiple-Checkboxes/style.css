@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.list {
+  width: 360px;
+  margin: 120px auto;
+  list-style: none;
+}
+.list-item {
+  padding: 10px;
+  border: 1px solid black;
+}
+.list-item * {
+  display: inline;
+}
+.list-item-checkbox {
+  margin-right: 5px;
+  outline: 1px solid rgb(0, 234, 255);
+}
+.list-item-p {
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 1px solid gray;
+  font-size: 1.5em;
+}
